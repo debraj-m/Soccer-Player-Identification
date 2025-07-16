@@ -424,8 +424,8 @@ class PlayerTracker:
 
 def main():
     """Main function"""
-    MODEL_PATH = r"C:\\Users\\debra\\Downloads\\best (17).pt"
-    VIDEO_PATH = r"C:\\Users\\debra\\Downloads\\15sec_input_720p.mp4"
+    MODEL_PATH = r"C:\Users\debra\Desktop\CODE\player_identification_YOLO\best.pt"
+    VIDEO_PATH = r"C:\Users\debra\Desktop\CODE\player_identification_YOLO\15sec_input_720p.mp4"
     
     try:
         tracker = PlayerTracker(MODEL_PATH, VIDEO_PATH)
